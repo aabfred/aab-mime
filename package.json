@@ -1,0 +1,36 @@
+{
+  "name": "aab-mime",
+  "description": "a@b framework - MIME",
+  "version": "0.0.1",
+  "author": "Frédéric Declercq <frederic.declercq@aab.life>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabfred/aab-mime.git"
+  },
+  "homepage": "https://github.com/aabfred/aab-mime#readme",
+  "keywords": [
+    "a@b",
+    "framework",
+    "mime",
+    "parser",
+    "rfc2047",
+    "rfc2231"
+  ],
+  "engines": {
+    "node": ">= 9.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/aabfred/aab-mime/issues"
+  },
+  "devDependencies": {
+    "aab-utils": ">= 1.0.0",
+    "eslint": "4.19.1",
+    "mocha": "5.1.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-unused-vars": [
+            "error",
+            { "varsIgnorePattern": "^_" }
+        ],
+        "quotes": [
+            "warn",
+            "double",
+            { "allowTemplateLiterals": true, "avoidEscape": true }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
